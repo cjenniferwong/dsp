@@ -20,22 +20,35 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
----
+> > pwd
+cd
+..
+touch file.txt
+-rm
+mv
+ls -a
+cp
+git commit -m "commit message here"
+git status
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
+`ls`  lists
+`ls -a`  lists all + hidden files
+`ls -l`  lists with long formats (permissions)
+`ls -lh`  lists with long formats with readable size
+`ls -lah`  lists all with readable sizes
+`ls -t`  sorts by time and date
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > lists
+lists all hidden files too
+lists with long formats
+lists with long formats with readable size
+lists all (hidden) with readable sizes
+sorts by time and date
+lists everything
 
 ---
 
@@ -43,7 +56,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > -R
+-u
+-a
+-p
+-d
 
 ---
 
@@ -51,7 +68,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > displays all files as rows across the screen in reverse order in long format listing excluding owner name and their size
+and an example would be ls -xargs to list all the files in your working directory in reverse order
  
 
